@@ -15,5 +15,4 @@ func main() {
 	if error := application.Run(os.Args); error != nil {
 		log.Fatal(error)
 	}
-
 }
