@@ -28,9 +28,7 @@ func Generate() *cli.App {
 			Flags:  flags,
 			Action: searchIps,
 		},
-	}
 
-	app.Commands = []cli.Command{
 		{
 			Name:   "servers",
 			Usage:  "Search the name servers of the domain in the internet",
